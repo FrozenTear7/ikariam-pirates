@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Ikariam pirates",
+    "description": "Ikariam pirates farming bot",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/index.js"
+            ],
+            "matches": [
+                "https://s54-pl.ikariam.gameforge.com/*"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "dingdong.mp3"
+    ]
+}
